@@ -18,5 +18,6 @@ Esse arquivo contém o circuito principal, que recebe entradas de 3 sensores:
   - **Valor manual**: o usuário insere um valor X em 3 bits. Esse valor é convertido na porcentagem de SpO2 pela fórmula `110 − 5X`, cobrindo a faixa de 80% (X=6) a 110% (X=0).
 
 - **Sensor de temperatura** — recebe uma entrada manual de 6 bits, cobrindo a faixa de 0°C a 64°C.
+  ![Circuito do sensor de Temperatura](https://github.com/gpombotky/Triagem-Circuitos-Digitais/blob/main/circuitos-digitais/imagens/image.png)
 
 A combinação dos valores dos três sensores determina a cor do LED de saída, indicando o nível de risco do paciente.
